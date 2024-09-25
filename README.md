@@ -6,9 +6,6 @@
       <a href='https://github.com/leeguandong/MaskControlnet'>
             <img src='https://img.shields.io/badge/Project-Page-Green'>
       </a>
-      <a href='https://github.com/leeguandong/MaskControlnet'>
-            <img src='https://img.shields.io/badge/Paper-Arxiv-red'>
-      </a>
       </br>
       <a href="https://github.com/leeguandong/MaskControlnet/graphs/contributors">
         <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/leeguandong/MaskControlnet" />
