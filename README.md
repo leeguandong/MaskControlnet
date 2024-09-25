@@ -39,7 +39,7 @@
 ![](./doc/mask_controlnet.png)
 ![](./doc/controlnet_inpainting.png)
 
-- 借助海量电商场景的抠图数据，也就是显著图检测数据的0/1的mask图，训练一个有mask引导的controlnet模型，该模型能在电商场景有很好的生成。在https://blog.csdn.net/u012193416/article/details/142453416这篇博客中有更加详细的介绍。注意mask引导的controlnet和controlnet inpainting模型是不同的，我们其实也希望通过mask controlnet这种方式来解决模型的过度补全问题。我选了一个做法比较相似的mask controlnet和controlnet inpainting的结构图做对比。
+- 借助海量电商场景的抠图数据，也就是显著图检测数据的0/1的mask图，训练一个有mask引导的controlnet模型，该模型能在电商场景有很好的生成。在https://blog.csdn.net/u012193416/article/details/142453416 这篇博客中有更加详细的介绍。注意mask引导的controlnet和controlnet inpainting模型是不同的，我们其实也希望通过mask controlnet这种方式来解决模型的过度补全问题。我选了一个做法比较相似的mask controlnet和controlnet inpainting的结构图做对比。
 
 ## 数据集
 
