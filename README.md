@@ -98,8 +98,10 @@ image.save("./output.png")
   <summary>硬件资源</summary>
   <p>* 实验在A800 (4X, 80GB)上进行</p>
 </details>
+
 - （1）准备数据，原始图片在`data/mask_controlnet/images`文件夹下,mask图片在`data/mask_controlnet/condition_images`；
 - （2）开始训练：
+
 ```bash
 export export CUDA_VISIBLE_DEVICES=3,4,5,6
 export MODEL_DIR="/home/lgd/common/ComfyUI/models/checkpoints/stable-diffusion-v1.5-no-safetensor/"
