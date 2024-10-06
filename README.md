@@ -55,7 +55,7 @@ pip install diffusers
 ### 2.模型推理
 
 |模型权重|下载链接|质量|
-|:-|:-|:-|:-|
+|:-|:-|:-|
 |checkpoints-MaskControlnet|/weights/|低|
 
 #### CLI推理
@@ -121,7 +121,7 @@ accelerate launch --mixed_precision="fp16" --multi_gpu "/home/lgd/e_commerce_sd/
  --tracker_project_name="controlnet-demo" \
  --report_to=wandb
 ```
-这里的复现过程非常简单，主要是很多过程我们都为大家准备好了，大家可以随时复现一个自己的`XrayQwenVL`。
+这里的复现过程非常简单，主要是很多过程我们都为大家准备好了，大家可以随时复现一个自己的`MaskControlnet`。
 
 
 ## 项目致谢
